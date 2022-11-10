@@ -1,0 +1,32 @@
+nav{
+    z-index: 100;
+    top: 0;
+}
+.logo img {
+    background: transparent;
+    height: 4.625rem;
+}
+.btnclr{
+    background-color: #6d4cd4;
+}
+.input-n{
+    padding: 20px;
+}
+.btn-n{
+    color: #6d4cd4;
+    border: 2px solid #6d4cd4;
+}
+.base-text-color{
+    color:#6D4CD4;
+}
+.l-white-color{
+    color:rgb(158, 158, 158) ;
+}
+.shorthand {
+    text-decoration: underline solid #6d4cd4 5px;
+    color: transparent;
+  }
+  .shorthand-1 {
+    text-decoration: underline solid #6d4cd4 5px;
+  }
+  
