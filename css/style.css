@@ -10,9 +10,15 @@ nav{
     z-index: 100;
     top: 0;
 }
+.logo{
+    z-index: 366;
+    top: 22px;
+    left: 19px;
+    position: absolute;
+}
 .logo img {
     background: transparent;
-    height: 4.625rem;
+    height: 5.625rem;
 }
 .art-live-text-font h1{
    font-size: xx-large;
@@ -57,11 +63,46 @@ nav{
 .dem-back{
     background: rgb(148, 148, 148);
 }
+.search-btn-dwn{
+    top: 82px;
+    width: 100%;
+    z-index: 5;
+}
 
 .card img{
     height: 300px;
 }
 .navbar-nav a{
-    font-size: small;
+    font-size: smaller;
     font-weight: 700;
+}
+/* .float-nevu{
+    position: absolute;
+    top: 10px;
+    z-index: 1000;
+    right: 10px;
+} */
+@media (max-width:50000px) and (min-width:991px) {
+    nav .nevu {
+        display:flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .search-btn-dwn{
+       display: none;
+    }
+}
+
+@media (max-width:991px){
+    nav .search-btn  {
+         display: none;
+    }
+    nav .btn-deso-price{
+        display: none;
+    }
+    .logo img {
+        background: transparent;
+        height: 49.625px;
+    }
+
 }
