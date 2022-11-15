@@ -1,0 +1,14 @@
+
+.vs {
+      display:block;
+      max-height:650px;
+      overflow-y:auto;
+}
+thead{
+  display:table;
+  width:100%;
+  table-layout:fixed;
+}
+thead {
+  width: calc( 100% - 1em )
+} 
