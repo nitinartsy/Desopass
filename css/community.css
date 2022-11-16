@@ -3,6 +3,7 @@
       display:block;
       max-height:650px;
       overflow-y:auto;
+      background-color: #f6f6f6;
 }
 thead{
   display:table;
@@ -10,5 +11,55 @@ thead{
   table-layout:fixed;
 }
 thead {
-  width: calc( 100% - 1em )
+  width: calc( 100%  )
 } 
+.card-body {
+  border-radius: 4px;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+  color: #2d2d2d;
+}
+.latest-news-img img{
+  width: 50px;
+  height: 50px;
+  background-color: #747474;
+}
+.Top-Daily-Diamonded-Creators-img img{
+  width: 80px;
+  height: 80px;
+  background-color: #747474;
+  border-radius: 10px;
+
+}
+.gap{
+  gap: 15px;
+}
+.pad{
+  padding-top: 15px;
+}
+
+
+
+
+.input, .textarea {
+  font-family: inherit;
+  font-size: inherit;
+  padding: 1px 6px;
+}
+.textarea {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  resize: both;
+  min-height: 140px;
+  line-height: 20px;
+}
+
+.textarea:active {
+border: none;
+}
+.user-img img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  background-color: #ffffff;
+}
