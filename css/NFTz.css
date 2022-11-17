@@ -42,3 +42,59 @@
        width: 300px;
      }
  }
+ .pro-img img {
+    height:auto;
+    width: 400px;
+    background-color: #2d2d2d;
+ }
+ .highest-offer-box {
+    align-items: flex-start;
+    background-color: rgb(228 228 228);
+    border: 1px solid #b4b4b4;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 2.5rem;
+    padding: 1.5rem;
+    position: relative;
+    width: 100%;
+}
+ .highest-sum-wrapper {
+    color: #2d2d2d;
+    font-size: 24px;
+    font-weight: 700;
+}
+.highest-sum-wrapper .text {
+    color: #161616;
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 1.4rem 0 1.5rem;
+    text-transform: capitalize;
+}
+.right-side-options{
+    z-index: 10;
+    position: fixed;
+    right: 0;
+    top: 40%;
+}
+.right-side-options i{
+    font-size: 35px;
+    margin: 15px;
+}
+.right-side-options a{
+     color: rgb(115, 115, 115);
+}
+
+
+
+
+
+ @media (max-width:320px) and (min-width:0px) {
+    .pro-img img {
+        height:auto;
+        width: 260px;
+        background-color: #2d2d2d;
+     }
+ }
