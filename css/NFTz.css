@@ -1,0 +1,44 @@
+.NFTz-profile-img img {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(80, 80, 80, 0.586);
+}
+.deso-key{
+    align-items: center;
+    background-color: #eee;
+    color: #2d2d2d;
+    display: flex;
+    font-size: 1.125rem;
+    height: 2.8125rem;
+    margin-bottom: 2rem;
+    width: fit-content;
+    padding-left: 1rem;
+    position: relative;
+}
+
+@media (max-width:320px) and (min-width:0px) {
+   .deso-key p {
+      width: 164px;
+    }
+}
+@media  (min-width:321px) and (max-width:375px) {
+    .deso-key p {
+       width: 199px;
+     }
+ }
+ @media  (min-width:375px) and (max-width:425px) {
+    .deso-key p {
+       width: 235px;
+     }
+ }
+ @media  (min-width:426px) and (max-width:500px) {
+    .deso-key p {
+       width: 300px;
+     }
+ }
+
+ @media  (min-width:501px) and (max-width:700px) {
+    .deso-key p {
+       width: 300px;
+     }
+ }
